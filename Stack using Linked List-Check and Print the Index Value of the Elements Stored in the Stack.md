@@ -31,24 +31,23 @@ To write a Python program that:
    - For each element in the stack, print the index and the value at that index.
 
 ## 📝 Program
-```
+~~~
 stack = []
+
 stack.append('a')
 stack.append('b')
 stack.append('c')
-print("Initial stack:", stack)
-print("\nIndex and Values in the stack:")
-for index in range(len(stack)):
-    print(f"Index {index}: {stack[index]}")
-```
-## Sample Input & Output
-```
-Initial stack: ['a', 'b', 'c']
 
-Index and Values in the stack:
-Index 0: a
-Index 1: b
-Index 2: c
-```
+print('Initial stack: ' + str(stack))
+
+for i in range(len(stack)):
+    print(i, end=" ")
+    print(stack[i])
+~~~
+
+## Sample Input & Output
+<img width="686" height="166" alt="image" src="https://github.com/user-attachments/assets/d5f9d6e8-11e1-4b9d-aa45-35d3f0e20603" />
+
+
 ## Result
-Hence  Checked and Printed the Index Value of the Elements Stored in the Stack.
+Thus the output is verified.
