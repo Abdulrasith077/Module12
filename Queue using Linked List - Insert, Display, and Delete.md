@@ -31,29 +31,26 @@ To write a Python program that:
 ---
 
 ## Program
-```
+~~~
 queue = []
+
 queue.append('a')
 queue.append('b')
 queue.append('c')
-print("Queue after elements are inserted:")
+
+print('Queue after elements are inserted:')
 print(queue)
-deleted_element = queue.pop(0)
-print("Deleting the first element inserted:")
-print(deleted_element)
-print("Queue after the first element is deleted:")
+
+print('Deleting the first element inserted:')
+print(queue.pop(0))
+
+print('Queue after the first elements is deleted:')
 print(queue)
-```
+~~~
 
 ## Output
-```
-Queue after elements are inserted:
-['a', 'b', 'c']
-Deleting the first element inserted:
-a
-Queue after the first element is deleted:
-['b', 'c']
+<img width="843" height="246" alt="image" src="https://github.com/user-attachments/assets/d06be383-a06e-42a5-8f4b-3bd5623cbdbc" />
 
-```
+
 ## Result
-Hence performed functions on queue.
+Thus the output is verified.
