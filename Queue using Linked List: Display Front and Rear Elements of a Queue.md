@@ -29,25 +29,28 @@ To write a Python program to:
 
 ---
 ## Program
-```
+~~~
 queue = []
+
 queue.append('a')
 queue.append('b')
 queue.append('c')
 queue.append('d')
-print("Initial Queue:")
-print(queue)
-front = queue[0]    # First element (front of the queue)
-rear = queue[-1]    # Last element (rear of the queue)
-print("Front element of the queue:", front)
-print("Rear element of the queue:", rear)
-```
+
+print('Initial Queue: ' + str(queue))
+
+front = queue[0]
+
+print("\nElement at the front of the queue is .... ", front)
+
+rear = queue[3]
+
+print("\nElement at the rear of the queue is .... ", rear)
+~~~
+
 ## Output
-```
-Initial Queue:
-['a', 'b', 'c', 'd']
-Front element of the queue: a
-Rear element of the queue: d
-```
+<img width="858" height="218" alt="image" src="https://github.com/user-attachments/assets/ef1a253e-bb57-4708-adec-61358b1a5ba3" />
+
+
 ## Result
-Hence Displayed Front and Rear Elements of a Queue
+Thus the output is verified.
